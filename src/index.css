@@ -17,6 +17,7 @@ button {
 
 select {
   cursor: pointer;
+  min-width: 0;
 }
 
 .languages {
@@ -70,6 +71,10 @@ textarea {
   color: #969696;
   text-align: right;
   display: block;
+}
+
+.history-item {
+  margin-bottom: 1rem;
 }
 
 .history-header {
