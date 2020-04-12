@@ -90,7 +90,9 @@ function App({ state, actions }) {
           </button>
         )}
       </div>
-      <small className="characters-left">{9999 - state.text.length}</small>
+      {state.text && (
+        <small className="characters-left">{9999 - state.text.length}</small>
+      )}
       <div className="from">
         <textarea readOnly value={state.translation}></textarea>
         {state.translation && (
