@@ -10,7 +10,7 @@
     "actus-default-actions": "0.1.0-alpha.0",
     "actus-localstorage": "0.1.0-alpha.0",
     "actus-logger": "^0.2.0-alpha.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "date-fns": "^2.12.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
